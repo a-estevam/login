@@ -11,25 +11,41 @@
     <main class="main-login">
         <div class="left">
             <h1>Faça o login <br><samp>e entre para</samp><br><samp>nosso time</samp></h1></h1>
-            <!-- <img src="/img/astronaut-suit-animate.svg" class="left-img" alt="astronauta-animação"> -->
+           <img src="/img/astronaut-suit-animate.svg" class="left-img" alt="astronauta-animação"> 
         </div>
         <div class="right">
             <div class="card-login">
                 <h1>LOGIN</h1>
                 <div class="text_field">
                     <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="usuário">
+                    <input type="text" name="usuario" placeholder="usuário" id="txtusuario">
                 </div>
                 <div class="text_field">
                     <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="senha">
+                    <input type="password" name="senha" placeholder="senha" id="txtsenha">
                 </div>
-                <button class="btn-login">Login</button>
+                <input type="submit" value="login" class="btn-login"  ondblclick="logar()">
+        
 
 
 
             </div>
         </div>
     </main>
+
+    <!-- <script>
+    // function logar(){
+    //     const usuario = document.getElementById('txtusuario').value;
+    //     const senha = document.getElementById('txtsenha').value;
+        
+    //     if(usuario == "admin" && senha =="admin"){
+    //         alert("SUCESSO");
+    //     } else{
+    //         alert("USUÁRIO ou SENHA INVÁLIDOS")
+    //     }
+
+    // }
+    </script> -->
+ <script src="script.js"></script>
 </body>
 </html>
