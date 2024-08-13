@@ -107,7 +107,7 @@ samp{
     color: aliceblue;
 }
 
-.btn-login{
+#btn-login{
     width: 100px;
     padding: 16px 0px;
     margin: 25px;
