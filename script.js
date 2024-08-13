@@ -1,5 +1,5 @@
 
-function logar(){
+function novoLogar(){
     const usuario = document.getElementById('txtusuario').value;
     const senha = document.getElementById('txtsenha').value;
     const btnlogin = document.getElementById('btn-login')
