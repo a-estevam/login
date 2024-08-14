@@ -3,11 +3,12 @@ function novoLogar() {
     const senha = document.getElementById('txtsenha').value;
 
     if (usuario === "admin" && senha === "admin") {
-        alert("SUCESSO");
+        alert('bem-vindo 'usuario);
     } else {
         alert("USUÁRIO ou SENHA INVÁLIDOS");
     }
 
-    console.log(usuario);
-    console.log(senha);
+    console.log('você digitou o usuário '+ usuario);
+    console.log('você digitou a senha '+ senha);
+}
 }
